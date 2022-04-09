@@ -65,9 +65,6 @@ function etch() {
          alpha.toString;
          box.style.backgroundColor = `rgba(0, 0, 0, ${alpha})`;
         }
-        if (color === 'rgba(0, 0, 0, 1)') {
-            alpha = 1;
-        }
     });
 });
 }
